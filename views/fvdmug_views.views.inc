@@ -37,3 +37,12 @@ function fvdmug_views_views_data_alter(&$data) {
     'handler' => 'fvdmug_views_views_handler_filter_node_created_month',
   );
 }
+
+/**
+ * Implements hook_views_plugins_alter().
+ */
+function hook_views_plugins_alter(&$plugins) {
+  // To see the full listing, make sure devel is enabled and uncomment the line 
+  // below.
+  //dpm($plugins, __FUNCTION__);
+}
