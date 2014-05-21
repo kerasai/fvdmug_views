@@ -41,7 +41,7 @@ function fvdmug_views_views_data_alter(&$data) {
 /**
  * Implements hook_views_plugins_alter().
  */
-function hook_views_plugins_alter(&$plugins) {
+function fvdmug_views_views_plugins_alter(&$plugins) {
   // To see the full listing, make sure devel is enabled and uncomment the line 
   // below.
   //dpm($plugins, __FUNCTION__);
