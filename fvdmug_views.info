@@ -1,0 +1,10 @@
+name = FVDMUG Views Demo
+description = Demonstrates various ways to extend Views.
+package = Development
+core = 7.x
+
+dependencies[] = views
+
+files[] = views/fvdmug_views_views_handler_field_node_created_month.inc
+files[] = views/fvdmug_views_views_handler_filter_node_created_month.inc
+files[] = views/fvdmug_views_views_handler_field_node_devel_link.inc

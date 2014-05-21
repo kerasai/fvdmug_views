@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * FVDMUG Views Demo module code.
+ */
+
+/**
+ * Implements hook_views_api().
+ * 
+ * This tells Views that we've got some integration and identify where the files
+ * are located. All additional Views hooks can be implemented in the views.inc
+ * and default.views.inc files and the files will be loaded only when needed.
+ */
+function fvdmug_views_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'fvdmug_views') . '/views',
+  );
+}
